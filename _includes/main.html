@@ -1,0 +1,50 @@
+<div class="all-gifs">
+    {% for group in site.data.groups %}
+    {% for checkpoint in group.checkpoints %}
+    {% for id in (1..checkpoint.images) %}
+    <div class="gif-series-thumb">
+        {% if id < 10 %} <img src="assets/thumbs/{{group.group}}{{checkpoint.checkpoint}}{{ id | prepend: '0000' }}.gif"
+            alt="GIFs">
+            {% else %}
+            <img src="assets/thumbs/{{group.group}}{{checkpoint.checkpoint}}{{ id | prepend: '000' }}.gif" alt="GIFs">
+            {% endif %}
+    </div>
+    {% endfor %}
+    {% endfor %}
+    {% endfor %}
+</div>
+
+<div class="projects section">
+    {% for group in site.data.groups %}
+    <div class="project">
+        <h1>
+            {% if group.name %}{{group.name}} by{% endif %}
+            {% for author in group.authors %}{{author.name}}{% if forloop.last == false %}<span>, </span>{% endif %}{% endfor %}
+        </h1>
+        <div class="gif-container">
+            {% for id in (1..group.final) %}
+            <div class="gif">
+                {% if id < 10 %} <img src="assets/gifs/{{group.group}}{{ id | prepend: '0000' }}.gif" alt="GIFs">
+                    {% else %}
+                    <img src="assets/gifs/{group.group}}{{ id | prepend: '000' }}.gif" alt="GIFs">
+                    {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        <p><a href="{{ group.sub }}">View more on Dropbox</a></p>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="projects section">
+    <div class="project">
+        <h1>
+            How are we navigating around copyrights and fair reusage of content from elsewhere?
+        </h1>
+        <p>The student work shared on this website may include references from non-original work from other places, and we have been mindful of attributing them so we remain fair in its usage. Foremost, we have prioritised assets that are either in public domain or allow free reuse licenses. As much as possible, students have attempted to illustrate themselves and in places where it may not be possible to do so, or to keep the effectiveness of concept, screen captures from movies are used with attributions in their complete submission, and on the GIF itself.</p>
+        <p>We acknowledge unclear guidelines around some of the material that is used in the presented work; and while everything is attributed despite their license, we are willing to take down or modify something if needed. Please feel free to bring any such conflicts to our attention.</p>
+
+        <hr/>
+        <p><a href="https://forms.office.com/r/eVfkHnBEiA">Leave your feedback</a></p>
+    </div>
+</div>

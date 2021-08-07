@@ -1,0 +1,40 @@
+explain-with-gif website
+
+Design
+------
+The website is largely restricted to single page, with gallery of GIF series and contributors. The website will also be used for subsequent editions of this project, hence the opening banner/text will be largely devoid of NFT/crypto. I'll work on the text over the second and third week. Clicking on GIF series will open a `GIF series` page to view all GIFs in that series.
+
+
+Feature Suggestions
+-------------------
+The first goal of the exercise is to get basic layout done; but feel free to suggest new features in the ISSUES. Tag your issues with `Feature Request`. Learn more in the below section if you can also implement the feature and send me the PR.
+
+
+Uploading GIFs
+--------------
+To keep the website lighter, do not upload GIF files directly into the GH repo, instead upload GIF on GIPHY(https://giphy.com). And populate GIF details in `_data` folder. This will also ensure optimum cache controls.
+
+
+Contribute
+----------
+To contribute, clone the repository and self-assign active and open issues; create a new branch from the most recent commit point on `main` branch and name your branch as `<btype>-<your_github_handle>-<issue_short_title>`. Assign the issue to yourself, and start working on it.
+
+Possible values of `<btype>`: `[feature, bug, hotfix]`
+Use `<issue_short_title>` as provided in the corresponding issue.
+
+Protected branches: `main, stable`
+`main   : active development branch`
+`stable : to be deployed instance`
+
+DO NOT add any third-party packages.
+
+Work on your branch and send a Pull Request once done.
+
+Building locally for development:
+- Install Jekyll (https://jekyllrb.com/docs/).
+- Update Gem and Node dependencies.
+- Run the local server using `jekyll serve -l` at the directory. 
+
+
+---
+This project is supported and maintained by Experimental Maths Lab at Srishti.

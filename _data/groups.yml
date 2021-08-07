@@ -1,0 +1,129 @@
+- group: G2
+  name:
+  authors:
+    - name: Anshika Chirania
+    - name: Nithish Pajeer
+  description: Brush to Block - How can we create a series of GIFs explaining what NFT's are to artists?
+  checkpoints: 
+    - checkpoint: C1
+      images: 3
+    - checkpoint: C2
+      images: 7
+    - checkpoint: C3
+      images: 7
+    - checkpoint: C4
+      images: 7
+  final: 7
+  sub: https://www.dropbox.com/sh/r1r7q9csbmcuqwx/AACMWMucxwgxviGDDamPSvcya?dl=0
+
+- group: G3
+  name: Crypto Knights
+  authors:
+    - name: S Abirami
+    - name: Malay Vasa
+    - name: Pronamika Goswami
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  checkpoints: 
+    - checkpoint: C1
+      images: 9
+    - checkpoint: C2
+      images: 10
+    - checkpoint: C3
+      images: 3
+    - checkpoint: C4
+      images: 19
+  final: 7
+  sub: https://www.dropbox.com/sh/solmmp5w5cpngcb/AACFR2UrGMf6vJ0Y6T6MUUBfa?dl=0
+
+- group: G4
+  name: 
+  authors:
+    - name: Trivedi Aarya Jatin
+    - name: Nandini Bang
+    - name: Pallavi Kiragi
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  checkpoints: 
+    - checkpoint: C1
+      images: 2
+    - checkpoint: C2
+      images: 5
+    - checkpoint: C3
+      images: 6
+    - checkpoint: C4
+      images: 9
+  final: 7
+  sub: https://www.dropbox.com/sh/y6e4ulq192srtqj/AABnMUjrmBg3INCSN00ZQYRya?dl=0
+
+- group: G5
+  name: 
+  authors:
+    - name: Sahana Sundararajan
+    - name: Nupur Vinchurkar
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  checkpoints: 
+    - checkpoint: C1
+      images: 0
+    - checkpoint: C2
+      images: 15
+    - checkpoint: C3
+      images: 2
+    - checkpoint: C4
+      images: 12
+  final: 6
+  sub: https://www.dropbox.com/sh/xb1dbsnh2va5i1n/AACEM9WmHugp2EJsdR2_omdDa?dl=0
+
+- group: G6
+  name: Triple Trouble Tokens
+  authors:
+    - name: Aarshi Jain
+    - name: Purvi Prashant Patil
+    - name: Sayantani Mukherjee
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  checkpoints: 
+    - checkpoint: C1
+      images: 32
+    - checkpoint: C2
+      images: 24
+    - checkpoint: C3
+      images: 24
+    - checkpoint: C4
+      images: 44
+  final: 7
+  sub: https://www.dropbox.com/sh/q2qjijmuqii2q9r/AAA1K0BIrtRouNF1j9dm8bbwa?dl=0
+
+- group: G7
+  name: This could be an NFT
+  authors:
+    - name: Aman Bhargava
+    - name: Rachit Mathur
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  checkpoints: 
+    - checkpoint: C1
+      images: 5
+    - checkpoint: C2
+      images: 3
+    - checkpoint: C3
+      images: 7
+    - checkpoint: C4
+      images: 7
+  final: 7
+  sub: https://www.dropbox.com/sh/eia95r4kbf1gin1/AAD56e4CH7WJtVlxpgfdxYH5a?dl=0
+
+- group: G8
+  name: 
+  authors:
+    - name: Tiyasha Chakraborty
+    - name: Nandan Eswar
+    - name: Joshi Sakshi Nishikant
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  checkpoints: 
+    - checkpoint: C1
+      images: 9
+    - checkpoint: C2
+      images: 5
+    - checkpoint: C3
+      images: 6
+    - checkpoint: C4
+      images: 10
+  final: 8
+  sub: https://www.dropbox.com/sh/tn2yviaz8z62nmt/AACwUXj9eBMcuvOQ757n20CKa?dl=0
